@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+.box-detail-img {
+    width: 100%;
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layers-detail-image {
+    width: 100%;
+    height: inherit;
+    background-image: linear-gradient(to right, rgb(0, 2, 14, .6), rgb(0, 2, 14, .6));
+}
+
+.text-production {
+    font-family: 'Baloo 2', cursive;
+    font-size: 23px;
+    color: #FCEF33 !important;
+    opacity: .8;
+}
+
+.text-more {
+    font-family: 'Baloo 2', cursive;
+    font-size: 17px;
+    margin-top: -12px;
+    word-spacing: 6px;
+}
+
+.box-right {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.text-title-movie-detail {
+    font-family: 'Baloo 2', cursive;
+    font-size: 45px;
+    color: #fff !important;
+    font-weight: bold !important;
+    margin-top: -10px;
+}
+
+.text-plot {
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    color: #fff !important;
+    opacity: .8;
+    word-spacing: 5px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.more-info-left {
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+}
+
+.more-info-right {
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+    color: #fff !important;
+    opacity: .8;
+}
+
+.box-movie-more {
+    width: 97%;
+    height: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .box-movie-more {
+        width: 100%;
+        margin-right: 0;
+    }
+    .box-right {
+        margin-left: 0;
+    }
+}
